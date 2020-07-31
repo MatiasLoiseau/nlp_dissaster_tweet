@@ -1,12 +1,15 @@
 # nlp_dissaster_tweet
 
->Trabajo Práctico N°2, de la Universidad de Buenos Aires - Facultad de Ingeniería.
->Carrera: Ingeniería en Informática.
+>Trabajo Práctico N°2, de la Universidad de Buenos Aires - Ingeniería en Informática - 1er Cuatrimestre 2020.
+>
 >Materia: Organización de Datos.
->Cuatrimestre: 1er Cuatrimestre 2020.
+>
 >Fecha de entrega: 13/07/2020.
+>
 >Profesor: Argerich, Luis.
+>
 >JTP: Golmar, Natalia.
+>
 >Nombre del grupo: Team_Undav
 
 ### Integrantes Team_Undav:
