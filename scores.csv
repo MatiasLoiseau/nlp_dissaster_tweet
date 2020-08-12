@@ -1,0 +1,16 @@
+description,score
+BoW + TFIDF + NB,0.78669
+BoW + TFIDF + SGDClassifier,0.7919
+BoG + TFIDF + SVM,0.79221
+BoW + TFIDF + NB + Stemming,0.78976
+BoW + TFIDF + XGBoost,0.76987
+BoW + TFIDF + LogisticRegression,0.78608
+Glove (100dim) + Only CNN,0.57033
+Glove (100dim) + CNN + LSTM,0.76432
+Glove (100dim) + LSTM,0.79528
+Glove (50dim) + Bidirectional LSTM,0.80478
+Glove (100dim) + Bidirectional LSTM,0.81397
+Glove (100dim) + Bidirectional LSTM + Keywords Included,0.80968
+BERT (without cleaning text),0.83389
+BERT + Cleaning + cut length,0.83726
+BERT + Cleaning + Keywords included,0.82807
