@@ -1,17 +1,19 @@
 description,score
-CV + TFIDF + NB,0.78669
-CV + TFIDF + NB + GS,0.79558
+CV + TFIDF + MNB,0.78669
+CV + TFIDF + MNB + GS,0.79558
 CV + TFIDF + SGDClassifier + GS,0.7919
-CV + TFIDF + SVM + GS,0.79221
-CV + TFIDF + NB + Stemming + GS,0.78976
-CV + TFIDF + XGBoost + GS,0.76987
+CV + TFIDF + SVC + GS,0.78639
+CV + TFIDF + MNB + Stemming + GS,0.78976
+CV + TFIDF + XGBoost + GS,0.76984
 CV + TFIDF + LogisticRegression + GS,0.78608
+CV + TFIDF + DT + GS,0.69598
+CV + TFIDF + KNN + GS,0.77382
 Glove (100dim) + Only CNN,0.57033
-Glove (100dim) + CNN + LSTM,0.76432
-Glove (100dim) + LSTM,0.79528
-Glove (50dim) + Bidirectional LSTM,0.80478
-Glove (100dim) + Bidirectional LSTM,0.81397
-Glove (100dim) + Bidirectional LSTM + Keywords Included,0.80968
+Glove (100dim) + CNN + LSTM,0.79650
+Glove (100dim) + LSTM,0.80570
+Glove (50dim) + BLSTM,0.80478
+Glove (100dim) + BLSTM,0.81673
+Glove (100dim) + BLSTM + Keywords Included,0.80968
 BERT (without cleaning text),0.83389
 BERT + Cleaning + cut length,0.83726
 BERT + Cleaning + Keywords included,0.82807
