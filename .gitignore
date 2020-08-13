@@ -1,5 +1,6 @@
 # ignore all . files and . folders
 .*
+.*/
 virtual_documents/
 ipynb_checkpoints/
 .virtual_documents/
